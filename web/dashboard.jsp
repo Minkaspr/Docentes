@@ -25,12 +25,12 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Principal</title>
+        <link rel="icon" href="assets/Clase.png">
     </head>
     <body>
         <h1>Tablero</h1>
         <h3>Bienvenido: <%= nomDoc %></h3>
         <h5> <%= correoDoc %></h5>
-        
         <strong>Operaciones</strong>
         <ul>
             <% if(gradoDoc.equals("Senior") || gradoDoc.equals("Master")) { %>
@@ -46,6 +46,5 @@
             <% } %>
         </ul>
         <a href="Docente?op=cerrar">Cerrar Sesión</a>
-
     </body>
 </html>
